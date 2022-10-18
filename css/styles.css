@@ -128,6 +128,7 @@ img {
   color: var(--main-text-color);
   padding-top: 32px;
   padding-bottom: 32px;
+  transition: transform 250ms var(--timing-function);
 }
 
 .header-item::after {
@@ -618,7 +619,8 @@ img {
   border: 0;
   padding: 6px 22px;
   transition: color 250ms var(--timing-function),
-    background-color 250ms var(--timing-function);
+    background-color 250ms var(--timing-function),
+    box-shadow 250ms var(--timing-function);
 }
 
 .first-btn {
